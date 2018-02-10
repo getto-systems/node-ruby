@@ -1,4 +1,4 @@
-FROM node:8.5.0
+FROM node:9.5.0-stretch
 
 RUN apt-get update && \
     apt-get install -y \
